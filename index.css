@@ -1,0 +1,77 @@
+body {
+  background-image: url("images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: auto;
+  text-align: center;
+  font-family: 'Red Hat Display', sans-serif;
+  cursor: auto;
+}
+
+.card {
+  width: 25%;
+  margin: 3% auto;
+  border-radius: 15px 15px;
+  box-shadow: 1px 4px 10px rgba(211,211,211,0.4),-1px 4px 10px rgba(211,211,211,0.4);
+  background-color: white;
+}
+
+.header-band, .price-band, .pay-button, .cancel-order {
+  margin: 0 auto 0;
+}
+
+.header-band{
+  margin-bottom: 1rem;
+}
+
+.images {
+  width: 100%;
+  border-radius: 15px 15px 0 0;
+}
+
+p {
+  width: 80%;
+  margin: auto auto;
+}
+
+.price-band {
+  display: flex;
+  width: 80%;
+  background-color: rgba(255,255,255,0.1);
+  padding: 5px;
+  border-radius: 10px;
+}
+
+#music1 {
+  margin-right: 5%;
+}
+
+#planlink {
+  margin-right: 15%;
+}
+
+.pay-button {
+  width: 80%;
+  color: white;
+  font-weight: bold;
+  background-color: hsl(245, 75%, 52%);
+  padding: 0.5em 0;
+  border-radius: 5px;
+  margin-top: 2rem;
+  box-shadow: 0 3px 15px 8px rgba(200,220,240,0.9);
+}
+
+.cancel-order{
+  width: 80%;
+  margin: 1.5rem auto 2.5rem auto;
+  padding-bottom: 2rem;
+}
+
+#changeplanlink{
+  text-decoration: none;
+}
+
+.pay-button:hover, .cancel-order:hover, #changeplanlink:hover{
+  text-decoration: underline;
+  cursor: pointer;
+
+}
